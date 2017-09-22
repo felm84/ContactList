@@ -1,6 +1,6 @@
 [
     {
-        "merged": "C:\\ContactList\\app\\build\\intermediates\\res\\merged\\debug\\xml\\searchable_contacts.xml",
-        "source": "C:\\ContactList\\app\\src\\main\\res\\xml\\searchable_contacts.xml"
+        "merged": "C:\\ContactList\\app\\build\\intermediates\\res\\merged\\debug\\xml\\search_contacts.xml",
+        "source": "C:\\ContactList\\app\\src\\main\\res\\xml\\search_contacts.xml"
     }
 ]

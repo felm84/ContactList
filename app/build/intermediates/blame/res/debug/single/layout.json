@@ -8,12 +8,12 @@
         "source": "C:\\ContactList\\app\\src\\main\\res\\layout\\contact_detail_item.xml"
     },
     {
-        "merged": "C:\\ContactList\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main_twopanes.xml",
-        "source": "C:\\ContactList\\app\\src\\main\\res\\layout\\activity_main_twopanes.xml"
-    },
-    {
         "merged": "C:\\ContactList\\app\\build\\intermediates\\res\\merged\\debug\\layout\\contact_list_item.xml",
         "source": "C:\\ContactList\\app\\src\\main\\res\\layout\\contact_list_item.xml"
+    },
+    {
+        "merged": "C:\\ContactList\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main_two_panes.xml",
+        "source": "C:\\ContactList\\app\\src\\main\\res\\layout\\activity_main_two_panes.xml"
     },
     {
         "merged": "C:\\ContactList\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",

@@ -1,4 +1,4 @@
-#Fri Sep 22 12:52:54 AEST 2017
+#Fri Sep 22 12:58:08 AEST 2017
 base.0=C\:\\ContactList\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_243286865fd8d53a8cb8618c05ab491177dc979a
 renamed.1=classes.dex
 renamed.0=classes2.dex

@@ -28,7 +28,7 @@ int integer contact_detail_percent 0x7f060000
 int integer contact_detail_photo_percent 0x7f060003
 int integer contact_list_percent 0x7f060001
 int layout activity_main 0x7f030000
-int layout activity_main_twopanes 0x7f030001
+int layout activity_main_two_panes 0x7f030001
 int layout contact_detail_fragment 0x7f030002
 int layout contact_detail_item 0x7f030003
 int layout contact_list_fragment 0x7f030004
@@ -61,4 +61,4 @@ int style contactNameTitle 0x7f050007
 int style listViewActivatedStyle 0x7f050005
 int style quickContactBadgeStyle 0x7f050006
 int style searchTextHiglight 0x7f050008
-int xml searchable_contacts 0x7f040000
+int xml search_contacts 0x7f040000

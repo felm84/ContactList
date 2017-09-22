@@ -80,9 +80,9 @@ ADDED from C:\ContactList\app\src\main\AndroidManifest.xml:31:17-71
 	android:name
 		ADDED from C:\ContactList\app\src\main\AndroidManifest.xml:31:25-68
 meta-data#android.app.searchable
-ADDED from C:\ContactList\app\src\main\AndroidManifest.xml:33:13-34:70
+ADDED from C:\ContactList\app\src\main\AndroidManifest.xml:33:13-34:66
 	android:resource
-		ADDED from C:\ContactList\app\src\main\AndroidManifest.xml:34:24-67
+		ADDED from C:\ContactList\app\src\main\AndroidManifest.xml:34:24-63
 	android:name
 		ADDED from C:\ContactList\app\src\main\AndroidManifest.xml:33:24-61
 activity#comfelm84.github.contactslist.ui.ContactDetailActivity

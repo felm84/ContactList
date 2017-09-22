@@ -54,11 +54,11 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Locale;
 
-public class ContactsListFragment extends ListFragment implements
+public class ContactListFragment extends ListFragment implements
         AdapterView.OnItemClickListener, LoaderManager.LoaderCallbacks<Cursor> {
 
     // Defines a tag for identifying log entries
-    private static final String TAG = "ContactsListFragment";
+    private static final String TAG = "ContactListFragment";
 
     // Bundle key for saving previously selected search result item
     private static final String STATE_PREVIOUSLY_SELECTED_KEY =
@@ -89,7 +89,7 @@ public class ContactsListFragment extends ListFragment implements
     /**
      * Fragments require an empty constructor.
      */
-    public ContactsListFragment() {}
+    public ContactListFragment() {}
 
 
     public void setSearchQuery(String query) {
@@ -293,7 +293,7 @@ public class ContactsListFragment extends ListFragment implements
                     // necessary content Uri from mSearchTerm.
                     mSearchQueryChanged = true;
                     getLoaderManager().restartLoader(
-                            ContactsQuery.QUERY_ID, null, ContactsListFragment.this);
+                            ContactsQuery.QUERY_ID, null, ContactListFragment.this);
                     return true;
                 }
             });
@@ -316,7 +316,7 @@ public class ContactsListFragment extends ListFragment implements
                         }
                         mSearchTerm = null;
                         getLoaderManager().restartLoader(
-                                ContactsQuery.QUERY_ID, null, ContactsListFragment.this);
+                                ContactsQuery.QUERY_ID, null, ContactListFragment.this);
                         return true;
                     }
                 });
@@ -731,10 +731,6 @@ public class ContactsListFragment extends ListFragment implements
         public void onSelectionCleared();
     }
 
-    /**
-     * This interface defines constants for the Cursor and CursorLoader, based on constants defined
-     * in the {@link android.provider.ContactsContract.Contacts} class.
-     */
     public interface ContactsQuery {
 
         // An identifier for the loader
@@ -767,12 +763,8 @@ public class ContactsListFragment extends ListFragment implements
                 // a "permanent" contact URI.
                 Contacts.LOOKUP_KEY,
 
-                // DISPLAY_NAME_PRIMARY, which either contains the contact's displayable name or
-                // some other useful identifier such as an email address.
                 Utils.hasHoneycomb() ? Contacts.DISPLAY_NAME_PRIMARY : Contacts.DISPLAY_NAME,
 
-                // In Android 3.0 and later, the thumbnail image is pointed to by
-                // PHOTO_THUMBNAIL_URI.
                 Utils.hasHoneycomb() ? Contacts.PHOTO_THUMBNAIL_URI : Contacts._ID,
 
                 // The sort order column for the returned Cursor, used by the AlphabetIndexer

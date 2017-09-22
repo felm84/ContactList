@@ -44,11 +44,7 @@ public abstract class ImageLoader {
     }
 
     /**
-     * Load an image specified by the data parameter into an ImageView (override
-     * {@link ImageLoader#processBitmap(Object)} to define the processing logic).
-     *
-     * @param data The URL of the image to download.
-     * @param imageView The ImageView to bind the downloaded image to.
+     * Load an image specified by the data parameter into an ImageView.
      */
     public void loadImage(Object data, ImageView imageView) {
         if (data == null) {
@@ -76,19 +72,13 @@ public abstract class ImageLoader {
 
     /**
      * Set placeholder bitmap that shows when the the background thread is running.
-     *
-     * @param resId Resource ID of loading image.
      */
     public void setLoadingImage(int resId) {
         mLoadingBitmap = BitmapFactory.decodeResource(mResources, resId);
     }
 
     /**
-     * Adds an {@link ImageCache} to this image loader.
-     *
-     * @param fragmentManager A FragmentManager to use to retain the cache over configuration
-     *                        changes such as an orientation change.
-     * @param memCacheSizePercent The cache size as a percent of available app memory.
+     * Adds an ImageCache to this image loader.
      */
     public void addImageCache(FragmentManager fragmentManager, float memCacheSizePercent) {
         mImageCache = ImageCache.getInstance(fragmentManager, memCacheSizePercent);
@@ -104,10 +94,6 @@ public abstract class ImageLoader {
     /**
      * Subclasses should override this to define any processing or work that must happen to produce
      * the final bitmap. This will be executed in a background thread and be long running.
-     *
-     * @param data The data to identify which image to process, as provided by
-     *            {@link ImageLoader#loadImage(Object, ImageView)}
-     * @return The processed bitmap
      */
     protected abstract Bitmap processBitmap(Object data);
 
@@ -149,11 +135,6 @@ public abstract class ImageLoader {
         return true;
     }
 
-    /**
-     * @param imageView Any imageView
-     * @return Retrieve the currently active work task (if any) associated with this imageView.
-     * null if there is no such task.
-     */
     private static BitmapWorkerTask getBitmapWorkerTask(ImageView imageView) {
         if (imageView != null) {
             final Drawable drawable = imageView.getDrawable();
@@ -277,9 +258,6 @@ public abstract class ImageLoader {
 
     /**
      * Called when the processing is complete and the final bitmap should be set on the ImageView.
-     *
-     * @param imageView The ImageView to set the bitmap to.
-     * @param bitmap The new bitmap to set.
      */
     private void setImageBitmap(ImageView imageView, Bitmap bitmap) {
         if (mFadeInBitmap) {
@@ -310,13 +288,7 @@ public abstract class ImageLoader {
     }
 
     /**
-     * Decode and sample down a bitmap from a file input stream to the requested width and height.
-     *
-     * @param fileDescriptor The file descriptor to read from
-     * @param reqWidth The requested width of the resulting bitmap
-     * @param reqHeight The requested height of the resulting bitmap
-     * @return A bitmap sampled down from the original with the same aspect ratio and dimensions
-     *         that are equal to or greater than the requested width and height
+     * Decode and sample down a bitmap from a file input stream to the requested width and height
      */
     public static Bitmap decodeSampledBitmapFromDescriptor(
             FileDescriptor fileDescriptor, int reqWidth, int reqHeight) {
@@ -335,14 +307,8 @@ public abstract class ImageLoader {
     }
 
     /**
-     * Calculate an inSampleSize for use in a {@link BitmapFactory.Options} object when decoding
-     * bitmaps using the decode* methods from {@link BitmapFactory}.
-     *
-     * @param options An options object with out* params already populated (run through a decode*
-     *            method with inJustDecodeBounds==true
-     * @param reqWidth The requested width of the resulting bitmap
-     * @param reqHeight The requested height of the resulting bitmap
-     * @return The value to be used for inSampleSize
+     * Calculate an inSampleSize for use in a BitmapFactory.Options object when decoding
+     * bitmaps using the decode* methods from BitmapFactory.
      */
     public static int calculateInSampleSize(BitmapFactory.Options options,
             int reqWidth, int reqHeight) {

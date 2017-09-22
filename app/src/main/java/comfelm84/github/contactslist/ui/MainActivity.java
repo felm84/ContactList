@@ -15,7 +15,7 @@ import comfelm84.github.contactslist.R;
 import comfelm84.github.contactslist.util.Utils;
 
 public class MainActivity extends FragmentActivity implements
-        ContactsListFragment.OnContactsInteractionListener {
+        ContactListFragment.OnContactsInteractionListener {
 
     // Defines a tag for identifying log entries
     private static final String TAG = "MainActivity";
@@ -49,11 +49,11 @@ public class MainActivity extends FragmentActivity implements
             // Fetch query from intent and notify the fragment that it should display search
             // results instead of all contacts.
             String searchQuery = getIntent().getStringExtra(SearchManager.QUERY);
-            ContactsListFragment mContactsListFragment = (ContactsListFragment)
+            ContactListFragment mContactListFragment = (ContactListFragment)
                     getSupportFragmentManager().findFragmentById(R.id.contact_list);
 
             isSearchResultView = true;
-            mContactsListFragment.setSearchQuery(searchQuery);
+            mContactListFragment.setSearchQuery(searchQuery);
 
             // Set special title for search results
             String title = getString(R.string.contacts_list_search_results_title, searchQuery);

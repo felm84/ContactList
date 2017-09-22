@@ -99,11 +99,7 @@ public class ContactDetailFragment extends Fragment implements
     public ContactDetailFragment() {}
 
     /**
-     * Sets the contact that this Fragment displays, or clears the display if the contact argument is null.
-     *
-     * @param contactLookupUri The contact lookup Uri to load and display in this fragment. Passing
-     *                         null is valid and the fragment will display a message that no
-     *                         contact is currently selected instead.
+     * Sets the contact that this Fragment displays, or clears the display if the contact argument is null
      */
     public void setContact(Uri contactLookupUri) {
 
@@ -347,8 +343,6 @@ public class ContactDetailFragment extends Fragment implements
     /**
      * Builds an empty address layout that just shows that no addresses
      * were found for this contact.
-     *
-     * @return A LinearLayout to add to the contact details layout
      */
     private LinearLayout buildEmptyAddressLayout() {
         return buildAddressLayout(0, null, null);
@@ -356,15 +350,6 @@ public class ContactDetailFragment extends Fragment implements
 
     /**
      * Builds an address LinearLayout based on address information from the Contacts Provider.
-     *
-     * @param addressType From
-     * {@link android.provider.ContactsContract.CommonDataKinds.StructuredPostal#TYPE}
-     * @param addressTypeLabel From
-     * {@link android.provider.ContactsContract.CommonDataKinds.StructuredPostal#LABEL}
-     * @param address From
-     * {@link android.provider.ContactsContract.CommonDataKinds.StructuredPostal#FORMATTED_ADDRESS}
-     * @return A LinearLayout to add to the contact details layout,
-     *         populated with the provided address details.
      */
     private LinearLayout buildAddressLayout(int addressType, String addressTypeLabel,
             final String address) {
@@ -427,9 +412,6 @@ public class ContactDetailFragment extends Fragment implements
 
     /**
      * Constructs a geo scheme Uri from a postal address.
-     *
-     * @param postalAddress A postal address.
-     * @return the geo:// Uri for the postal address.
      */
     private Uri constructGeoUri(String postalAddress) {
         return Uri.parse(GEO_URI_SCHEME_PREFIX + Uri.encode(postalAddress));
@@ -437,8 +419,6 @@ public class ContactDetailFragment extends Fragment implements
 
     /**
      * Fetches the width or height of the screen in pixels, whichever is larger.
-     *
-     * @return The largest screen dimension in pixels.
      */
     private int getLargestScreenDimension() {
         // Gets a DisplayMetrics object, which is used to retrieve the display's pixel height and width
@@ -455,9 +435,6 @@ public class ContactDetailFragment extends Fragment implements
 
     /**
      * Decodes and returns the contact's thumbnail image.
-     * @param contactUri The Uri of the contact containing the image.
-     * @param imageSize The desired target width and height of the output image in pixels.
-     * @return If a thumbnail image exists for the contact, a Bitmap image, otherwise null.
      */
     @TargetApi(Build.VERSION_CODES.ICE_CREAM_SANDWICH)
     private Bitmap loadContactPhoto(Uri contactUri, int imageSize) {

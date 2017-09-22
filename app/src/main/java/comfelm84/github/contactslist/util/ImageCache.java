@@ -23,20 +23,14 @@ public class ImageCache {
 
     /**
      * Creating a new ImageCache object using the specified parameters.
-     *
-     * @param memCacheSizePercent The cache size as a percent of available app memory.
      */
     private ImageCache(float memCacheSizePercent) {
         init(memCacheSizePercent);
     }
 
     /**
-     * Find and return an existing ImageCache stored in a {@link RetainFragment}, if not found a new
-     * one is created using the supplied params and saved to a {@link RetainFragment}.
-     *
-     * @param fragmentManager The fragment manager to use when dealing with the retained fragment.
-     * @param memCacheSizePercent The cache size as a percent of available app memory.
-     * @return An existing retained ImageCache object or a new one if one did not exist
+     * Find and return an existing ImageCache stored in a RetainFragment, if not found a new
+     * one is created using the supplied params and saved to a RetainFragment.
      */
     public static ImageCache getInstance(
             FragmentManager fragmentManager, float memCacheSizePercent) {
@@ -58,8 +52,6 @@ public class ImageCache {
 
     /**
      * Initialize the cache.
-     *
-     * @param memCacheSizePercent The cache size as a percent of available app memory.
      */
     private void init(float memCacheSizePercent) {
         int memCacheSize = calculateMemCacheSize(memCacheSizePercent);
@@ -83,8 +75,6 @@ public class ImageCache {
 
     /**
      * Adds a bitmap to both memory and disk cache.
-     * @param data Unique identifier for the bitmap to store
-     * @param bitmap The bitmap to store
      */
     public void addBitmapToCache(String data, Bitmap bitmap) {
         if (data == null || bitmap == null) {
@@ -99,9 +89,6 @@ public class ImageCache {
 
     /**
      * Get from memory cache.
-     *
-     * @param data Unique identifier for which item to get
-     * @return The bitmap if found in cache, null otherwise
      */
     public Bitmap getBitmapFromMemCache(String data) {
         if (mMemoryCache != null) {
@@ -118,9 +105,6 @@ public class ImageCache {
 
     /**
      * Get the size in bytes of a bitmap.
-     *
-     * @param bitmap The bitmap to calculate the size of.
-     * @return size of bitmap in bytes.
      */
     @TargetApi(12)
     public static int getBitmapSize(Bitmap bitmap) {
@@ -133,8 +117,6 @@ public class ImageCache {
 
     /**
      * Calculates the memory cache size based on a percentage of the max available VM memory.
-     *
-     * @param percent Percent of available app memory to use to size memory cache.
      */
     public static int calculateMemCacheSize(float percent) {
         if (percent < 0.05f || percent > 0.8f) {
@@ -147,10 +129,6 @@ public class ImageCache {
     /**
      * Locate an existing instance of this Fragment or if not found, create and
      * add it using FragmentManager.
-     *
-     * @param fm The FragmentManager manager to use.
-     * @return The existing instance of the Fragment or the new instance if just
-     *         created.
      */
     public static RetainFragment findOrCreateRetainFragment(FragmentManager fm) {
         // Check to see if we have retained the worker fragment.
@@ -187,8 +165,6 @@ public class ImageCache {
 
         /**
          * Store a single object in this Fragment.
-         *
-         * @param object The object to store
          */
         public void setObject(Object object) {
             mObject = object;
@@ -196,8 +172,6 @@ public class ImageCache {
 
         /**
          * Get the stored object.
-         *
-         * @return The stored object
          */
         public Object getObject() {
             return mObject;

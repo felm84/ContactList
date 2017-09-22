@@ -1,6 +1,6 @@
 #Internal package file, do not edit.
-#Thu Sep 21 10:06:10 AEST 2017
-25.file=C\:\\ContactList\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\xml\\searchable_contacts.xml
+#Fri Sep 22 12:58:06 AEST 2017
+25.file=C\:\\ContactList\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\contact_detail_fragment.xml
 25.base=C\:\\ContactList\\app\\build\\intermediates\\res\\resources-debug.ap_
 22.set=ANDROID_RESOURCE
 8.set=ANDROID_RESOURCE
@@ -9,7 +9,7 @@
 14.base=C\:\\ContactList\\app\\build\\intermediates\\res\\resources-debug.ap_
 16.set=ANDROID_RESOURCE
 count=26
-6.file=C\:\\ContactList\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\activity_main_twopanes.xml
+6.file=C\:\\ContactList\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v11\\ic_action_add.png
 6.base=C\:\\ContactList\\app\\build\\intermediates\\res\\resources-debug.ap_
 2.set=ANDROID_RESOURCE
 0.file=C\:\\ContactList\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\menu\\contact_detail_menu.xml
@@ -43,7 +43,7 @@ count=26
 14.set=ANDROID_RESOURCE
 2.file=C\:\\ContactList\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout-v16\\contact_list_item.xml
 2.base=C\:\\ContactList\\app\\build\\intermediates\\res\\resources-debug.ap_
-22.file=C\:\\ContactList\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout-v16\\contact_list_fragment.xml
+22.file=C\:\\ContactList\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\xml\\search_contacts.xml
 22.base=C\:\\ContactList\\app\\build\\intermediates\\res\\resources-debug.ap_
 0.set=ANDROID_RESOURCE
 19.set=ANDROID_RESOURCE
@@ -58,7 +58,7 @@ count=26
 3.file=C\:\\ContactList\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v11\\ic_action_edit.png
 3.base=C\:\\ContactList\\app\\build\\intermediates\\res\\resources-debug.ap_
 13.set=ANDROID_RESOURCE
-23.file=C\:\\ContactList\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\ic_action_map.png
+23.file=C\:\\ContactList\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout-v16\\contact_list_fragment.xml
 23.base=C\:\\ContactList\\app\\build\\intermediates\\res\\resources-debug.ap_
 18.set=ANDROID_RESOURCE
 19.file=C\:\\ContactList\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout-v16\\contact_detail_fragment.xml
@@ -66,16 +66,16 @@ count=26
 12.file=C\:\\ContactList\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\activity_main.xml
 12.base=C\:\\ContactList\\app\\build\\intermediates\\res\\resources-debug.ap_
 4.set=ANDROID_RESOURCE
-4.file=C\:\\ContactList\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\contact_detail_item.xml
+4.file=C\:\\ContactList\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\activity_main_two_panes.xml
 4.base=C\:\\ContactList\\app\\build\\intermediates\\res\\resources-debug.ap_
 23.set=ANDROID_RESOURCE
-24.file=C\:\\ContactList\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\contact_detail_fragment.xml
+24.file=C\:\\ContactList\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\ic_action_map.png
 9.set=ANDROID_RESOURCE
 24.base=C\:\\ContactList\\app\\build\\intermediates\\res\\resources-debug.ap_
 12.set=ANDROID_RESOURCE
 17.set=ANDROID_RESOURCE
 13.file=C\:\\ContactList\\app\\build\\intermediates\\res\\resources-debug.ap_\\resources.arsc
 13.base=C\:\\ContactList\\app\\build\\intermediates\\res\\resources-debug.ap_
-5.file=C\:\\ContactList\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v11\\ic_action_add.png
+5.file=C\:\\ContactList\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\contact_detail_item.xml
 3.set=ANDROID_RESOURCE
 5.base=C\:\\ContactList\\app\\build\\intermediates\\res\\resources-debug.ap_

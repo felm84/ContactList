@@ -53,7 +53,7 @@ public final class R {
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
-        public static final int activity_main_twopanes=0x7f030001;
+        public static final int activity_main_two_panes=0x7f030001;
         public static final int contact_detail_fragment=0x7f030002;
         public static final int contact_detail_item=0x7f030003;
         public static final int contact_list_fragment=0x7f030004;
@@ -94,6 +94,6 @@ public final class R {
         public static final int searchTextHiglight=0x7f050008;
     }
     public static final class xml {
-        public static final int searchable_contacts=0x7f040000;
+        public static final int search_contacts=0x7f040000;
     }
 }
