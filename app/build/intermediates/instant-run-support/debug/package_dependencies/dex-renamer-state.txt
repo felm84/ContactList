@@ -1,0 +1,22 @@
+#Thu Sep 21 10:06:18 AEST 2017
+renamed.6=classes4.dex
+renamed.5=classes7.dex
+renamed.4=classes3.dex
+renamed.3=classes6.dex
+renamed.2=classes5.dex
+renamed.1=classes.dex
+renamed.0=classes2.dex
+base.6=C\:\\ContactList\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_84b43c6fbfde5e5d9c6f73cd2af84ce89a66bc62
+base.5=C\:\\ContactList\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\support-annotations-26.0.0-alpha1_b909168aa5637f4164f877d870f40264bf1ac4e2
+base.4=C\:\\ContactList\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_4e940482e4c60c20fe9045760d2f5926e8a057a5
+base.3=C\:\\ContactList\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_bf1b798a2d702085e42a9ecf118789ecb99e6198
+base.2=C\:\\ContactList\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_bb6559eafe3f14603fdeee715b021734ef4c8b15
+base.1=C\:\\ContactList\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_0cc10775ecbe9c3c5ccb07cf1aa5f8f496172e7c
+base.0=C\:\\ContactList\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_3c5c2f679c8b909fb79d1253c9419951cbe01de0
+file.6=C\:\\ContactList\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_84b43c6fbfde5e5d9c6f73cd2af84ce89a66bc62\\classes.dex
+file.5=C\:\\ContactList\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\support-annotations-26.0.0-alpha1_b909168aa5637f4164f877d870f40264bf1ac4e2\\classes.dex
+file.4=C\:\\ContactList\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_4e940482e4c60c20fe9045760d2f5926e8a057a5\\classes.dex
+file.3=C\:\\ContactList\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_bf1b798a2d702085e42a9ecf118789ecb99e6198\\classes.dex
+file.2=C\:\\ContactList\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_bb6559eafe3f14603fdeee715b021734ef4c8b15\\classes.dex
+file.1=C\:\\ContactList\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_0cc10775ecbe9c3c5ccb07cf1aa5f8f496172e7c\\classes.dex
+file.0=C\:\\ContactList\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_3c5c2f679c8b909fb79d1253c9419951cbe01de0\\classes.dex

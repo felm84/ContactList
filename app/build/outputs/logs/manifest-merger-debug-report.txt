@@ -1,0 +1,112 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\ContactList\app\src\main\AndroidManifest.xml:3:1-45:12
+	package
+		ADDED from C:\ContactList\app\src\main\AndroidManifest.xml:4:5-44
+		INJECTED from C:\ContactList\app\src\main\AndroidManifest.xml
+		INJECTED from C:\ContactList\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\ContactList\app\src\main\AndroidManifest.xml:6:5-30
+		INJECTED from C:\ContactList\app\src\main\AndroidManifest.xml
+		INJECTED from C:\ContactList\app\src\main\AndroidManifest.xml
+	android:versionCode
+		ADDED from C:\ContactList\app\src\main\AndroidManifest.xml:5:5-28
+		INJECTED from C:\ContactList\app\src\main\AndroidManifest.xml
+		INJECTED from C:\ContactList\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\ContactList\app\src\main\AndroidManifest.xml:3:11-69
+uses-sdk
+ADDED from C:\ContactList\app\src\main\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\d7fe221768b1048fd0f7597899c4cd223219d478\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\35963a5c9e0d4b64293da0f5cb3ea957ba113fca\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\a8ba9797827b9a388cd0e99265e21ad776129083\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\495a533154c75e1a372cc756462362147f01334a\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\1408a1efd435a8e6195a40ef59cdee7f92837794\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\f933f22c0e72be9a2d4a3ccbcaeb97447e0fe241\output\AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\d7fe221768b1048fd0f7597899c4cd223219d478\output\AndroidManifest.xml:23:9-51
+	android:targetSdkVersion
+		ADDED from C:\ContactList\app\src\main\AndroidManifest.xml:10:9-38
+		INJECTED from C:\ContactList\app\src\main\AndroidManifest.xml
+		INJECTED from C:\ContactList\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from C:\ContactList\app\src\main\AndroidManifest.xml:9:9-35
+		INJECTED from C:\ContactList\app\src\main\AndroidManifest.xml
+		INJECTED from C:\ContactList\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.READ_CONTACTS
+ADDED from C:\ContactList\app\src\main\AndroidManifest.xml:12:5-72
+	android:name
+		ADDED from C:\ContactList\app\src\main\AndroidManifest.xml:12:22-69
+application
+ADDED from C:\ContactList\app\src\main\AndroidManifest.xml:14:5-44:19
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\d7fe221768b1048fd0f7597899c4cd223219d478\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\35963a5c9e0d4b64293da0f5cb3ea957ba113fca\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\a8ba9797827b9a388cd0e99265e21ad776129083\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\495a533154c75e1a372cc756462362147f01334a\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\1408a1efd435a8e6195a40ef59cdee7f92837794\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\f933f22c0e72be9a2d4a3ccbcaeb97447e0fe241\output\AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from C:\ContactList\app\src\main\AndroidManifest.xml:17:9-41
+	android:allowBackup
+		ADDED from C:\ContactList\app\src\main\AndroidManifest.xml:19:9-35
+	android:icon
+		ADDED from C:\ContactList\app\src\main\AndroidManifest.xml:16:9-45
+	android:description
+		ADDED from C:\ContactList\app\src\main\AndroidManifest.xml:15:9-54
+	android:theme
+		ADDED from C:\ContactList\app\src\main\AndroidManifest.xml:18:9-40
+activity#comfelm84.github.contactslist.ui.ContactsListActivity
+ADDED from C:\ContactList\app\src\main\AndroidManifest.xml:21:9-35:20
+	android:label
+		ADDED from C:\ContactList\app\src\main\AndroidManifest.xml:23:17-63
+	android:windowSoftInputMode
+		ADDED from C:\ContactList\app\src\main\AndroidManifest.xml:24:17-59
+	android:name
+		ADDED from C:\ContactList\app\src\main\AndroidManifest.xml:22:17-85
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\ContactList\app\src\main\AndroidManifest.xml:25:13-28:29
+action#android.intent.action.MAIN
+ADDED from C:\ContactList\app\src\main\AndroidManifest.xml:26:17-69
+	android:name
+		ADDED from C:\ContactList\app\src\main\AndroidManifest.xml:26:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\ContactList\app\src\main\AndroidManifest.xml:27:17-77
+	android:name
+		ADDED from C:\ContactList\app\src\main\AndroidManifest.xml:27:27-74
+intent-filter#android.intent.action.SEARCH
+ADDED from C:\ContactList\app\src\main\AndroidManifest.xml:30:13-32:29
+action#android.intent.action.SEARCH
+ADDED from C:\ContactList\app\src\main\AndroidManifest.xml:31:17-71
+	android:name
+		ADDED from C:\ContactList\app\src\main\AndroidManifest.xml:31:25-68
+meta-data#android.app.searchable
+ADDED from C:\ContactList\app\src\main\AndroidManifest.xml:33:13-34:70
+	android:resource
+		ADDED from C:\ContactList\app\src\main\AndroidManifest.xml:34:24-67
+	android:name
+		ADDED from C:\ContactList\app\src\main\AndroidManifest.xml:33:24-61
+activity#comfelm84.github.contactslist.ui.ContactDetailActivity
+ADDED from C:\ContactList\app\src\main\AndroidManifest.xml:36:9-43:20
+	android:label
+		ADDED from C:\ContactList\app\src\main\AndroidManifest.xml:38:13-60
+	android:parentActivityName
+		ADDED from C:\ContactList\app\src\main\AndroidManifest.xml:39:13-95
+	android:name
+		ADDED from C:\ContactList\app\src\main\AndroidManifest.xml:37:13-82
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from C:\ContactList\app\src\main\AndroidManifest.xml:41:13-42:96
+	android:value
+		ADDED from C:\ContactList\app\src\main\AndroidManifest.xml:42:24-93
+	android:name
+		ADDED from C:\ContactList\app\src\main\AndroidManifest.xml:41:24-70
+meta-data#android.support.VERSION
+ADDED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\d7fe221768b1048fd0f7597899c4cd223219d478\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\35963a5c9e0d4b64293da0f5cb3ea957ba113fca\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\a8ba9797827b9a388cd0e99265e21ad776129083\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\495a533154c75e1a372cc756462362147f01334a\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\1408a1efd435a8e6195a40ef59cdee7f92837794\output\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\f933f22c0e72be9a2d4a3ccbcaeb97447e0fe241\output\AndroidManifest.xml:25:5-27:41
+	android:value
+		ADDED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\d7fe221768b1048fd0f7597899c4cd223219d478\output\AndroidManifest.xml:27:9-38
+	android:name
+		ADDED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\Administrator\.android\build-cache\d7fe221768b1048fd0f7597899c4cd223219d478\output\AndroidManifest.xml:26:9-47

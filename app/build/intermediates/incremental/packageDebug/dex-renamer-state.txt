@@ -1,0 +1,7 @@
+#Thu Sep 21 10:06:20 AEST 2017
+base.0=C\:\\ContactList\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_243286865fd8d53a8cb8618c05ab491177dc979a
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\ContactList\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_9a5706c4ce89847a68282ce8eec956fa5820a5ab\\classes.dex
+base.1=C\:\\ContactList\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_9a5706c4ce89847a68282ce8eec956fa5820a5ab
+file.0=C\:\\ContactList\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_243286865fd8d53a8cb8618c05ab491177dc979a\\classes.dex

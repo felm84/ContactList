@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\ContactList\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_contact_picture_180_holo_light.png",
+        "source": "C:\\ContactList\\app\\src\\main\\res\\drawable-mdpi\\ic_contact_picture_180_holo_light.png"
+    },
+    {
+        "merged": "C:\\ContactList\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\quickcontact_badge_small_pressed.9.png",
+        "source": "C:\\ContactList\\app\\src\\main\\res\\drawable-mdpi\\quickcontact_badge_small_pressed.9.png"
+    },
+    {
+        "merged": "C:\\ContactList\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_contact_picture_holo_light.png",
+        "source": "C:\\ContactList\\app\\src\\main\\res\\drawable-mdpi\\ic_contact_picture_holo_light.png"
+    },
+    {
+        "merged": "C:\\ContactList\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\quickcontact_badge_small_unpressed.9.png",
+        "source": "C:\\ContactList\\app\\src\\main\\res\\drawable-mdpi\\quickcontact_badge_small_unpressed.9.png"
+    },
+    {
+        "merged": "C:\\ContactList\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_action_map.png",
+        "source": "C:\\ContactList\\app\\src\\main\\res\\drawable-mdpi\\ic_action_map.png"
+    },
+    {
+        "merged": "C:\\ContactList\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_launcher.png",
+        "source": "C:\\ContactList\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    }
+]
