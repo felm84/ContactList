@@ -14,15 +14,11 @@ import comfelm84.github.contactslist.BuildConfig;
 import comfelm84.github.contactslist.R;
 import comfelm84.github.contactslist.util.Utils;
 
-/**
- * FragmentActivity to hold the main {@link ContactsListFragment}. On larger screen devices which
- * can fit two panes also load {@link ContactDetailFragment}.
- */
-public class ContactsListActivity extends FragmentActivity implements
+public class MainActivity extends FragmentActivity implements
         ContactsListFragment.OnContactsInteractionListener {
 
     // Defines a tag for identifying log entries
-    private static final String TAG = "ContactsListActivity";
+    private static final String TAG = "MainActivity";
 
     private ContactDetailFragment mContactDetailFragment;
 

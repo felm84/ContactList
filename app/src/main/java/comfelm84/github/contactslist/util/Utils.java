@@ -9,7 +9,7 @@ import android.os.Build;
 import android.os.StrictMode;
 
 import comfelm84.github.contactslist.ui.ContactDetailActivity;
-import comfelm84.github.contactslist.ui.ContactsListActivity;
+import comfelm84.github.contactslist.ui.MainActivity;
 
 /**
  * This class contains static utility methods.
@@ -47,7 +47,7 @@ public class Utils {
                 // For each activity class, set an instance limit of 1. Any more instances and
                 // there could be a memory leak.
                 vmPolicyBuilder
-                        .setClassInstanceLimit(ContactsListActivity.class, 1)
+                        .setClassInstanceLimit(MainActivity.class, 1)
                         .setClassInstanceLimit(ContactDetailActivity.class, 1);
             }
 

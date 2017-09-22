@@ -19,7 +19,7 @@
         android:allowBackup="true">
 
         <activity
-                android:name="comfelm84.github.contactslist.ui.ContactsListActivity"
+                android:name="comfelm84.github.contactslist.ui.MainActivity"
                 android:label="@string/activity_contacts_list"
                 android:windowSoftInputMode="adjustResize">
             <intent-filter>
@@ -36,10 +36,10 @@
         <activity
             android:name="comfelm84.github.contactslist.ui.ContactDetailActivity"
             android:label="@string/activity_contact_detail"
-            android:parentActivityName="comfelm84.github.contactslist.ui.ContactsListActivity">
+            android:parentActivityName="comfelm84.github.contactslist.ui.MainActivity">
 
             <meta-data android:name="android.support.PARENT_ACTIVITY"
-                       android:value="comfelm84.github.contactslist.ui.ContactsListActivity" />
+                       android:value="comfelm84.github.contactslist.ui.MainActivity" />
         </activity>
     </application>
 </manifest>
